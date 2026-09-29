@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" width="1200" height="750" role="img" aria-label="Vibotify V mark">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="58%" r="55%">
+      <stop offset="0" stop-color="#64d2ff" stop-opacity="0.30"/>
+      <stop offset="0.55" stop-color="#64d2ff" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#64d2ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="v" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b8ecff"/>
+      <stop offset="1" stop-color="#64d2ff"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" x2="1">
+      <stop offset="0" stop-color="#64d2ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#64d2ff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#64d2ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="#070b10"/>
+  <rect width="1200" height="750" fill="url(#glow)"/>
+  <g fill="none" stroke="#64d2ff" stroke-opacity="0.14" stroke-width="2">
+    <circle cx="600" cy="420" r="160"/>
+    <circle cx="600" cy="420" r="280"/>
+    <circle cx="600" cy="420" r="400"/>
+    <circle cx="600" cy="420" r="520"/>
+  </g>
+  <path d="M410 230 L600 560 L790 230" fill="none" stroke="#ffffff" stroke-opacity="0.14" stroke-width="56" stroke-linecap="round" stroke-linejoin="round" transform="translate(16 16)"/>
+  <path d="M410 230 L600 560 L790 230" fill="none" stroke="url(#v)" stroke-width="56" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="120" y="612" width="960" height="2" fill="url(#scan)"/>
+</svg>
